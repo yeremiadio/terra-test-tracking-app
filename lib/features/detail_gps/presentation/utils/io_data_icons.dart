@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+
+const Map<String, IconData> ioDataIcons = {
+  'Total Odometer': Icons.route,
+  'Gsm Signal': Icons.signal_cellular_alt,
+  'Engine Load': Icons.speed,
+  'Coolant Temperature': Icons.ac_unit,
+  'Short Fuel Trim': Icons.local_gas_station,
+  'Engine Rpm': Icons.settings, // Could be engine
+  'Vehicle Speed': Icons.speed,
+  'Timing Advance': Icons.access_time,
+  'Intake Air Temperature': Icons.thermostat,
+  'Maf': Icons.blur_on,
+  'Throttle Position': Icons.tune,
+  'Runtime Since Engine Start': Icons.timer,
+  'Distance Traveled Mil On': Icons.directions_car,
+  'Distance Since Codes Clear': Icons.clear_all,
+  'Barometric Pressure': Icons.compress,
+  'Control Module Voltage': Icons.bolt,
+  'Ambient Air Temperature': Icons.thermostat_auto,
+  'Time Run With Mil On': Icons.timelapse,
+  'Time Since Codes Cleared': Icons.timelapse,
+  'External Voltage': Icons.battery_charging_full,
+  'Battery Voltage': Icons.battery_full,
+  'Battery Current': Icons.battery_alert,
+  'Gnss Pdop': Icons.satellite_alt,
+  'Gnss Hdop': Icons.satellite_alt,
+  'Fuel Type': Icons.local_gas_station,
+  'Sleep Mode': Icons.nightlight_round,
+  'Movement': Icons.directions_walk,
+  'Ignition': Icons.power,
+};
